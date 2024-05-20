@@ -1425,3 +1425,38 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.20-11.18.40:808][ 87]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
 [2024.05.20-11.18.46:179][729]LogContentBrowser: Attempting asset rename: NewFolder -> Chloe_Folder
 [2024.05.20-11.18.46:179][729]LogContentBrowser: End creating deferred item NewFolder
+[2024.05.20-11.21.03:028][801]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.05.20-11.21.03:033][801]LogContentBrowser: Creating deferred item: NewWorld
+[2024.05.20-11.21.03:076][803]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.05.20-11.21.06:189][177]LogContentBrowser: Attempting asset rename: NewWorld -> Chloe
+[2024.05.20-11.21.06:254][177]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.20-11.21.06:254][177]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.20-11.21.06:256][177]LogContentBrowser: End creating deferred item NewWorld
+[2024.05.20-11.21.11:738][813]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.05.20-11.21.11:744][813]LogContentBrowser: Creating deferred item: NewWorld
+[2024.05.20-11.21.11:781][815]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.05.20-11.21.13:261][993]LogContentBrowser: Attempting asset rename: NewWorld -> Marv
+[2024.05.20-11.21.13:329][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.20-11.21.13:329][993]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.20-11.21.13:330][993]LogContentBrowser: End creating deferred item NewWorld
+[2024.05.20-11.21.17:582][483]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.05.20-11.21.17:587][483]LogContentBrowser: Creating deferred item: NewWorld
+[2024.05.20-11.21.17:623][485]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.05.20-11.21.18:529][594]LogContentBrowser: Attempting asset rename: NewWorld -> Naj
+[2024.05.20-11.21.18:594][594]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.20-11.21.18:594][594]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.20-11.21.18:595][594]LogContentBrowser: End creating deferred item NewWorld
+[2024.05.20-11.21.22:583][ 54]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.05.20-11.21.22:589][ 54]LogContentBrowser: Creating deferred item: NewWorld
+[2024.05.20-11.21.22:625][ 56]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.05.20-11.21.23:988][220]LogContentBrowser: Attempting asset rename: NewWorld -> Penny
+[2024.05.20-11.21.24:063][220]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.20-11.21.24:063][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.20-11.21.24:064][220]LogContentBrowser: End creating deferred item NewWorld
+[2024.05.20-11.21.27:565][620]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.05.20-11.21.27:572][620]LogContentBrowser: Creating deferred item: NewWorld
+[2024.05.20-11.21.27:613][622]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.05.20-11.21.28:543][734]LogContentBrowser: Attempting asset rename: NewWorld -> Sam
+[2024.05.20-11.21.28:613][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.20-11.21.28:613][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.20-11.21.28:614][734]LogContentBrowser: End creating deferred item NewWorld
