@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
 
 #pragma once
 
@@ -224,10 +224,6 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Audio|FMOD|Components")
     void SetPaused(bool paused);
 
-    /** Get the paused state of the audio component. Returns false if internal getPaused query fails. */
-    UFUNCTION(BlueprintCallable, Category = "Audio|FMOD|Components")
-    bool GetPaused();
-
     /** Set a parameter of the Event. */
     UFUNCTION(BlueprintCallable, Category = "Audio|FMOD|Components")
     void SetParameter(FName Name, float Value);
@@ -308,29 +304,11 @@ protected:
 private:
     bool bDefaultParameterValuesCached;
 
-    enum PauseContext
-    {
-        Explicit,
-        Implicit
-    };
-
-    /** Used for pausing from sequencer. */
-    bool bImplicitlyPaused = false;
-
-    /** Used for pausing from a direct call to pause. */
-    bool bExplicitlyPaused = false;
-
     /** Stored properties to apply next time we create an instance. */
     float StoredProperties[EFMODEventProperty::Count];
 
     /** Internal play function which can play events in the editor. */
     void PlayInternal(EFMODSystemContext::Type Context, bool bReset = false);
-
-    /** Pause the audio component from a sequencer call. */
-    void PauseInternal(PauseContext Pauser);
-
-    /** Resume the audio component from a sequencer call. */
-    void ResumeInternal(PauseContext Pauser);
 
     /** Cache default event parameter values. */
     void CacheDefaultParameterValues();
@@ -372,9 +350,6 @@ private:
     /** Called when a component is unregistered. Called after DestroyRenderState_Concurrent and OnDestroyPhysicsState are called. */
     virtual void OnUnregister() override;
 
-    /** Overridable native event for when play begins for this actor. */
-    virtual void BeginPlay() override;
-
     /** Overridable function called whenever this actor is being removed from a level. */
     virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
@@ -384,11 +359,6 @@ private:
 
 #if WITH_EDITORONLY_DATA
     void UpdateSpriteTexture();
-#endif
-
-#if WITH_EDITOR
-    /** Function assigned to the FMODStudioModule PreShutdown delegate to clean up before the Studio System is released. */
-    void Shutdown();
 #endif
 
     /** Release any cached parameters then the Studio Instance. */

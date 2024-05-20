@@ -923,11 +923,6 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_AmbientLPFParameter_MetaData[];
 #endif
 		static const UECodeGen_Private::FStrPropertyParams NewProp_AmbientLPFParameter;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_bFMODAudioLinkEnabled_MetaData[];
-#endif
-		static void NewProp_bFMODAudioLinkEnabled_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_bFMODAudioLinkEnabled;
 		static const UECodeGen_Private::FStructPropertyParams NewProp_Platforms_ValueProp;
 		static const UECodeGen_Private::FBytePropertyParams NewProp_Platforms_Key_KeyProp;
 #if WITH_METADATA
@@ -991,7 +986,6 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODSettings_Statics::NewProp_bEnableEditorLiveUpdate_MetaData[] = {
 		{ "Category", "Basic" },
 		{ "Comment", "/**\n    * Enable live update in Editor for Auditioning. *Requires Restart*\n    */" },
-		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
 		{ "ToolTip", "Enable live update in Editor for Auditioning. *Requires Restart*" },
 	};
@@ -1169,7 +1163,6 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODSettings_Statics::NewProp_EditorLiveUpdatePort_MetaData[] = {
 		{ "Category", "Advanced" },
 		{ "Comment", "/**\n    * Live update port to use while in editor for auditioning. *Requires Restart*\n    */" },
-		{ "ConfigRestartRequired", "TRUE" },
 		{ "EditCondition", "bEnableEditorLiveUpdate" },
 		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
 		{ "ToolTip", "Live update port to use while in editor for auditioning. *Requires Restart*" },
@@ -1313,20 +1306,6 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UFMODSettings_Statics::NewProp_AmbientLPFParameter = { "AmbientLPFParameter", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODSettings, AmbientLPFParameter), METADATA_PARAMS(Z_Construct_UClass_UFMODSettings_Statics::NewProp_AmbientLPFParameter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODSettings_Statics::NewProp_AmbientLPFParameter_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled_MetaData[] = {
-		{ "Category", "Advanced" },
-		{ "Comment", "/**\n    * Enables/Disables the FMODAudioLink modules.\n    */" },
-		{ "ConfigRestartRequired", "TRUE" },
-		{ "ModuleRelativePath", "Classes/FMODSettings.h" },
-		{ "ToolTip", "Enables/Disables the FMODAudioLink modules." },
-	};
-#endif
-	void Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled_SetBit(void* Obj)
-	{
-		((UFMODSettings*)Obj)->bFMODAudioLinkEnabled = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled = { "bFMODAudioLinkEnabled", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UFMODSettings), &Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled_MetaData)) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODSettings_Statics::NewProp_Platforms_ValueProp = { "Platforms", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, Z_Construct_UScriptStruct_FFMODPlatformSettings, METADATA_PARAMS(nullptr, 0) }; // 2008232712
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UFMODSettings_Statics::NewProp_Platforms_Key_KeyProp = { "Platforms_Key", nullptr, (EPropertyFlags)0x0000000000004001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UEnum_FMODStudio_EFMODPlatforms, METADATA_PARAMS(nullptr, 0) }; // 4094537559
 #if WITH_METADATA
@@ -1377,7 +1356,6 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_OcclusionParameter,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_AmbientVolumeParameter,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_AmbientLPFParameter,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_bFMODAudioLinkEnabled,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_Platforms_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_Platforms_Key_KeyProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODSettings_Statics::NewProp_Platforms,
@@ -1433,9 +1411,9 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODProjectLocale>()
 		{ FFMODProjectLocale::StaticStruct, Z_Construct_UScriptStruct_FFMODProjectLocale_Statics::NewStructOps, TEXT("FMODProjectLocale"), &Z_Registration_Info_UScriptStruct_FMODProjectLocale, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODProjectLocale), 2487079742U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODSettings, UFMODSettings::StaticClass, TEXT("UFMODSettings"), &Z_Registration_Info_UClass_UFMODSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSettings), 1034688192U) },
+		{ Z_Construct_UClass_UFMODSettings, UFMODSettings::StaticClass, TEXT("UFMODSettings"), &Z_Registration_Info_UClass_UFMODSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSettings), 3074778201U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_2434574289(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_819823706(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_Statics::EnumInfo));

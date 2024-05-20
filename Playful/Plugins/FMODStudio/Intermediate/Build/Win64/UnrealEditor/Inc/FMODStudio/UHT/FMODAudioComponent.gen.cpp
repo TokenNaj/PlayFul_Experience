@@ -568,13 +568,6 @@ void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineB
 		P_THIS->SetParameter(Z_Param_Name,Z_Param_Value);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(UFMODAudioComponent::execGetPaused)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->GetPaused();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(UFMODAudioComponent::execSetPaused)
 	{
 		P_GET_UBOOL(Z_Param_paused);
@@ -649,7 +642,6 @@ void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineB
 			{ "GetLength", &UFMODAudioComponent::execGetLength },
 			{ "GetParameter", &UFMODAudioComponent::execGetParameter },
 			{ "GetParameterValue", &UFMODAudioComponent::execGetParameterValue },
-			{ "GetPaused", &UFMODAudioComponent::execGetPaused },
 			{ "GetProperty", &UFMODAudioComponent::execGetProperty },
 			{ "GetTimelinePosition", &UFMODAudioComponent::execGetTimelinePosition },
 			{ "IsPlaying", &UFMODAudioComponent::execIsPlaying },
@@ -782,46 +774,6 @@ void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineB
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics
-	{
-		struct FMODAudioComponent_eventGetPaused_Parms
-		{
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((FMODAudioComponent_eventGetPaused_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FMODAudioComponent_eventGetPaused_Parms), &Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Audio|FMOD|Components" },
-		{ "Comment", "/** Get the paused state of the audio component. Returns false if internal getPaused query fails. */" },
-		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
-		{ "ToolTip", "Get the paused state of the audio component. Returns false if internal getPaused query fails." },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFMODAudioComponent, nullptr, "GetPaused", nullptr, nullptr, sizeof(Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::FMODAudioComponent_eventGetPaused_Parms), Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UFMODAudioComponent_GetPaused()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1407,7 +1359,6 @@ void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineB
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetLength, "GetLength" }, // 1900359853
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameter, "GetParameter" }, // 2989843576
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue, "GetParameterValue" }, // 3427397454
-		{ &Z_Construct_UFunction_UFMODAudioComponent_GetPaused, "GetPaused" }, // 712078126
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetProperty, "GetProperty" }, // 1870870803
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetTimelinePosition, "GetTimelinePosition" }, // 384987924
 		{ &Z_Construct_UFunction_UFMODAudioComponent_IsPlaying, "IsPlaying" }, // 3072995375
@@ -1615,9 +1566,9 @@ void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelegate& OnTimelineB
 		{ FFMODOcclusionDetails::StaticStruct, Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics::NewStructOps, TEXT("FMODOcclusionDetails"), &Z_Registration_Info_UScriptStruct_FMODOcclusionDetails, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODOcclusionDetails), 4030719313U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioComponent, UFMODAudioComponent::StaticClass, TEXT("UFMODAudioComponent"), &Z_Registration_Info_UClass_UFMODAudioComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioComponent), 4198151014U) },
+		{ Z_Construct_UClass_UFMODAudioComponent, UFMODAudioComponent::StaticClass, TEXT("UFMODAudioComponent"), &Z_Registration_Info_UClass_UFMODAudioComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioComponent), 2101393260U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_3896910203(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_3166187094(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo));

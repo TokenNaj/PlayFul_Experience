@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
 
 #include "FMODAudioComponent.h"
 #include "FMODStudioModule.h"
@@ -378,19 +378,8 @@ void UFMODAudioComponent::OnUnregister()
     Super::OnUnregister();
 }
 
-void UFMODAudioComponent::BeginPlay()
-{
-#if WITH_EDITOR
-    IFMODStudioModule::Get().PreEndPIEEvent().AddUObject(this, &UFMODAudioComponent::Shutdown);
-#endif
-    Super::BeginPlay();
-}
-
 void UFMODAudioComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-#if WITH_EDITOR
-    IFMODStudioModule::Get().PreEndPIEEvent().RemoveAll(this);
-#endif
     Super::EndPlay(EndPlayReason);
     bool shouldStop = false;
 
@@ -817,37 +806,6 @@ void UFMODAudioComponent::PlayInternal(EFMODSystemContext::Type Context, bool bR
     }
 }
 
-void UFMODAudioComponent::PauseInternal(PauseContext Pauser)
-{
-    if (Pauser == Implicit)
-    {
-        bImplicitlyPaused = true;
-    }
-    if (Pauser == Explicit)
-    {
-        bExplicitlyPaused = true;
-    }
-
-    SetPaused(true);
-}
-
-void UFMODAudioComponent::ResumeInternal(PauseContext Pauser)
-{
-    if (GetPaused())
-    {
-        if (Pauser == Implicit)
-        {
-            bImplicitlyPaused = false;
-        }
-        if (Pauser == Explicit)
-        {
-            bExplicitlyPaused = false;
-        }
-
-        SetPaused(bImplicitlyPaused || bExplicitlyPaused);
-    }
-}
-
 void UFMODAudioComponent::Stop()
 {
     UE_LOG(LogFMOD, Verbose, TEXT("UFMODAudioComponent %p Stop"), this);
@@ -863,14 +821,6 @@ void UFMODAudioComponent::Release()
 {
     ReleaseEventInstance();
 }
-
-#if WITH_EDITOR
-void UFMODAudioComponent::Shutdown()
-{
-    Stop();
-    Release();
-}
-#endif
 
 void UFMODAudioComponent::ReleaseEventCache()
 {
@@ -969,20 +919,6 @@ void UFMODAudioComponent::SetPaused(bool Paused)
             UE_LOG(LogFMOD, Warning, TEXT("Failed to pause"));
         }
     }
-}
-
-bool UFMODAudioComponent::GetPaused()
-{
-    bool Paused = false;
-    if (StudioInstance)
-    {
-        FMOD_RESULT Result = StudioInstance->getPaused(&Paused);
-        if (Result != FMOD_OK)
-        {
-            UE_LOG(LogFMOD, Warning, TEXT("Failed to get paused state"));
-        }
-    }
-    return Paused;
 }
 
 void UFMODAudioComponent::SetParameter(FName Name, float Value)

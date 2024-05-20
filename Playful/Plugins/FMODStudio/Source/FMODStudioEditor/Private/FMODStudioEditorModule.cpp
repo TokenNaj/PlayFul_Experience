@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
 
 #include "FMODStudioEditorModule.h"
 #include "FMODStudioModule.h"
@@ -389,6 +389,8 @@ void FFMODStudioEditorModule::ProcessBanks()
         BankUpdateNotifier.SetFilePath(Settings.GetFullBankPath());
 
         BankUpdateNotifier.EnableUpdate(true);
+
+        IFMODStudioModule::Get().RefreshSettings();
     }
 }
 
@@ -795,7 +797,7 @@ void FFMODStudioEditorModule::ValidateFMOD()
                             Settings.Locales[0].bDefault = true;
                         }
                         SettingsSection->Save();
-                        IFMODStudioModule::Get().ReloadBanks();
+                        IFMODStudioModule::Get().RefreshSettings();
                     }
                 }
             }
@@ -1111,7 +1113,6 @@ void FFMODStudioEditorModule::BeginPIE(bool simulating)
 
 void FFMODStudioEditorModule::EndPIE(bool simulating)
 {
-    IFMODStudioModule::Get().PreEndPIE();
     UE_LOG(LogFMOD, Verbose, TEXT("FFMODStudioEditorModule EndPIE: %d"), simulating);
     bSimulating = false;
     bIsInPIE = false;

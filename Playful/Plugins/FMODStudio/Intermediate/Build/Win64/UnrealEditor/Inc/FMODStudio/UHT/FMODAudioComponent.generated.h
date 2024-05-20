@@ -57,7 +57,6 @@ FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelega
 	DECLARE_FUNCTION(execGetParameterValue); \
 	DECLARE_FUNCTION(execGetParameter); \
 	DECLARE_FUNCTION(execSetParameter); \
-	DECLARE_FUNCTION(execGetPaused); \
 	DECLARE_FUNCTION(execSetPaused); \
 	DECLARE_FUNCTION(execSetPitch); \
 	DECLARE_FUNCTION(execSetVolume); \
@@ -80,7 +79,6 @@ FMODSTUDIO_API void FOnTimelineBeat_DelegateWrapper(const FMulticastScriptDelega
 	DECLARE_FUNCTION(execGetParameterValue); \
 	DECLARE_FUNCTION(execGetParameter); \
 	DECLARE_FUNCTION(execSetParameter); \
-	DECLARE_FUNCTION(execGetPaused); \
 	DECLARE_FUNCTION(execSetPaused); \
 	DECLARE_FUNCTION(execSetPitch); \
 	DECLARE_FUNCTION(execSetVolume); \

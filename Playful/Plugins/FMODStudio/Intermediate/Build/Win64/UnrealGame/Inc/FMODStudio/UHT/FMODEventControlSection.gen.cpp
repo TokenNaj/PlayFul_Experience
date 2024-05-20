@@ -41,13 +41,11 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventControlSection() {}
 	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enumerators[] = {
 		{ "EFMODEventControlKey::Stop", (int64)EFMODEventControlKey::Stop },
 		{ "EFMODEventControlKey::Play", (int64)EFMODEventControlKey::Play },
-		{ "EFMODEventControlKey::Pause", (int64)EFMODEventControlKey::Pause },
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_FMODStudio_EFMODEventControlKey_Statics::Enum_MetaDataParams[] = {
 		{ "Comment", "/** Defines the types of FMOD event control keys. */" },
 		{ "ModuleRelativePath", "Private/Sequencer/FMODEventControlSection.h" },
-		{ "Pause.Name", "EFMODEventControlKey::Pause" },
 		{ "Play.Name", "EFMODEventControlKey::Play" },
 		{ "Stop.Name", "EFMODEventControlKey::Stop" },
 		{ "ToolTip", "Defines the types of FMOD event control keys." },
@@ -211,7 +209,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventControlChannel>(
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo[] = {
-		{ EFMODEventControlKey_StaticEnum, TEXT("EFMODEventControlKey"), &Z_Registration_Info_UEnum_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3571978118U) },
+		{ EFMODEventControlKey_StaticEnum, TEXT("EFMODEventControlKey"), &Z_Registration_Info_UEnum_EFMODEventControlKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1142123279U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo[] = {
 		{ FFMODEventControlChannel::StaticStruct, Z_Construct_UScriptStruct_FFMODEventControlChannel_Statics::NewStructOps, TEXT("FMODEventControlChannel"), &Z_Registration_Info_UScriptStruct_FMODEventControlChannel, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventControlChannel), 2271255647U) },
@@ -219,7 +217,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<FFMODEventControlChannel>(
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UFMODEventControlSection, UFMODEventControlSection::StaticClass, TEXT("UFMODEventControlSection"), &Z_Registration_Info_UClass_UFMODEventControlSection, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventControlSection), 2431430234U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_3534119426(TEXT("/Script/FMODStudio"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_1251346923(TEXT("/Script/FMODStudio"),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventControlSection_h_Statics::EnumInfo));

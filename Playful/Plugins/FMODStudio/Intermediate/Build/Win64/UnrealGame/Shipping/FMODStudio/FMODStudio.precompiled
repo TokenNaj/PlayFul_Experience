@@ -6,8 +6,6 @@
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAsset.gen.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAssetLookup.gen.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioComponent.gen.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkComponent.gen.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkSettings.gen.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODBank.gen.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODBankLookup.gen.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODBlueprintStatics.gen.cpp.obj",
@@ -47,13 +45,6 @@
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODEventControlSectionTemplate.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODEventControlTrack.cpp.obj",
 		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODEventParameterSectionTemplate.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODEventParameterTrack.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkComponent.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkFactory.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkInputClient.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkLog.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkSettings.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkSourcePushed.cpp.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODAudioLinkSynchronizer.cpp.obj"
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\FMODStudio\\FMODEventParameterTrack.cpp.obj"
 	]
 }

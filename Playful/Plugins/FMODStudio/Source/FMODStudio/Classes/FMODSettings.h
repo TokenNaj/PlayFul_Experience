@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
 
 #pragma once
 
@@ -232,7 +232,7 @@ public:
     /**
     * Enable live update in Editor for Auditioning. *Requires Restart*
     */
-    UPROPERTY(Config, EditAnywhere, Category = Basic, meta = (ConfigRestartRequired = true))
+    UPROPERTY(Config, EditAnywhere, Category = Basic)
     bool bEnableEditorLiveUpdate;
 
     /**
@@ -342,7 +342,7 @@ public:
     /**
     * Live update port to use while in editor for auditioning. *Requires Restart*
     */
-    UPROPERTY(config, EditAnywhere, Category = Advanced, meta = (EditCondition = "bEnableEditorLiveUpdate", ConfigRestartRequired = true))
+    UPROPERTY(config, EditAnywhere, Category = Advanced, meta = (EditCondition = "bEnableEditorLiveUpdate"))
     int32 EditorLiveUpdatePort;
 
     /**
@@ -432,12 +432,6 @@ public:
     */
     UPROPERTY(config, EditAnywhere, Category = Advanced)
     FString AmbientLPFParameter;
-
-    /**
-    * Enables/Disables the FMODAudioLink modules.
-    */
-    UPROPERTY(config, EditAnywhere, Category = Advanced, meta = (ConfigRestartRequired=true))
-    bool bFMODAudioLinkEnabled;
 
     /*
     * Used to specify platform specific settings.
