@@ -3448,3 +3448,37 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.20-15.15.25:431][430]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Height.lambert1_Height
 [2024.05.20-15.15.25:431][430]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Base_color.lambert1_Base_color
 [2024.05.20-15.15.25:431][430]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Penny_Folder/Assets/Model/Boat_Stage_1.Boat_Stage_1
+[2024.05.20-15.15.58:486][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.05.20-15.15.58:500][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Naj_Auto3
+[2024.05.20-15.15.58:500][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Naj_Auto3541EA78242CEFB36DB9E7C9CDF1100B7.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Naj_Auto3.umap'
+[2024.05.20-15.15.58:507][520]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Naj_Folder/Naj' took 0.042
+[2024.05.20-15.15.58:507][520]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2024.05.20-15.15.58:507][520]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.05.20-15.15.58:570][520]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.05.20-15.15.58:570][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.05.20-15.15.58:586][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2024.05.20-15.15.58:587][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/BP_ThirdPersonCharacter_Auto3913C621D463B8A4BF63492836C2161CE.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.05.20-15.15.58:587][520]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Blueprints/Shop] ([2] browsable assets)...
+[2024.05.20-15.15.58:611][520]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Naj_Folder/Blueprints/Shop.Shop]
+[2024.05.20-15.15.58:611][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Blueprints/Shop]
+[2024.05.20-15.15.58:618][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Blueprints/Shop_Auto3
+[2024.05.20-15.15.58:618][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Shop_Auto399A49315477C19D959EA328477C1572C.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Blueprints/Shop_Auto3.uasset'
+[2024.05.20-15.15.58:619][520]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Widget/Shop_Widget] ([2] browsable assets)...
+[2024.05.20-15.15.58:622][520]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget.Shop_Widget]
+[2024.05.20-15.15.58:622][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Widget/Shop_Widget]
+[2024.05.20-15.15.58:625][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Widget/Shop_Widget_Auto3
+[2024.05.20-15.15.58:625][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Shop_Widget_Auto383E8C4F44B2544EBF612B988CEB2BCFD.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Widget/Shop_Widget_Auto3.uasset'
+[2024.05.20-15.15.58:626][520]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Widget/Pause_Menu] ([2] browsable assets)...
+[2024.05.20-15.15.58:631][520]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Naj_Folder/Widget/Pause_Menu.Pause_Menu]
+[2024.05.20-15.15.58:631][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Widget/Pause_Menu]
+[2024.05.20-15.15.58:635][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Widget/Pause_Menu_Auto3
+[2024.05.20-15.15.58:636][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Pause_Menu_Auto3984FB3CF44CDAAD3A18D1CB2AC89D24E.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Widget/Pause_Menu_Auto3.uasset'
+[2024.05.20-15.15.58:637][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Naj_Folder/Blueprints/Trash_System] ([2] browsable assets)...
+[2024.05.20-15.15.58:637][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Blueprints/Trash_System]
+[2024.05.20-15.15.58:639][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Blueprints/Trash_System_Auto3
+[2024.05.20-15.15.58:640][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Trash_System_Auto32A99AFB345940B97A48EF09011AC776E.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Blueprints/Trash_System_Auto3.uasset'
+[2024.05.20-15.15.58:640][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Naj_Folder/Blueprints/Trash_Spawner] ([2] browsable assets)...
+[2024.05.20-15.15.58:640][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Blueprints/Trash_Spawner]
+[2024.05.20-15.15.58:642][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Blueprints/Trash_Spawner_Auto3
+[2024.05.20-15.15.58:642][520]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Trash_Spawner_Auto34CB59D3C470DFC7B43342791AB06EE16.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Blueprints/Trash_Spawner_Auto3.uasset'
+[2024.05.20-15.15.58:643][520]LogFileHelpers: Auto-saving content packages took 0.136
