@@ -1400,3 +1400,28 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.20-11.11.47:176][ 42]LogSlate: Window 'Revision Control Login' being destroyed
 [2024.05.20-11.11.53:841][518]LogViewport: Scene viewport resized to 1513x1872, mode Windowed.
 [2024.05.20-11.15.10:911][480]LogViewport: Scene viewport resized to 3056x1881, mode Windowed.
+[2024.05.20-11.18.17:537][374]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.05.20-11.18.17:550][374]LogContentBrowser: Creating deferred item: NewFolder
+[2024.05.20-11.18.17:555][375]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.05.20-11.18.21:503][847]LogContentBrowser: Attempting asset rename: NewFolder -> Sam_Folder
+[2024.05.20-11.18.21:503][847]LogContentBrowser: End creating deferred item NewFolder
+[2024.05.20-11.18.23:718][ 98]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.05.20-11.18.23:725][ 98]LogContentBrowser: Creating deferred item: NewFolder
+[2024.05.20-11.18.23:730][ 99]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.05.20-11.18.26:808][466]LogContentBrowser: Attempting asset rename: NewFolder -> Naj_Folder
+[2024.05.20-11.18.26:808][466]LogContentBrowser: End creating deferred item NewFolder
+[2024.05.20-11.18.28:885][706]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.05.20-11.18.28:895][706]LogContentBrowser: Creating deferred item: NewFolder
+[2024.05.20-11.18.28:900][707]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.05.20-11.18.32:016][ 79]LogContentBrowser: Attempting asset rename: NewFolder -> Penny_Folder
+[2024.05.20-11.18.32:016][ 79]LogContentBrowser: End creating deferred item NewFolder
+[2024.05.20-11.18.33:730][271]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.05.20-11.18.33:739][271]LogContentBrowser: Creating deferred item: NewFolder
+[2024.05.20-11.18.33:744][272]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.05.20-11.18.37:536][725]LogContentBrowser: Attempting asset rename: NewFolder -> Marv_Folder
+[2024.05.20-11.18.37:536][725]LogContentBrowser: End creating deferred item NewFolder
+[2024.05.20-11.18.40:797][ 86]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.05.20-11.18.40:802][ 86]LogContentBrowser: Creating deferred item: NewFolder
+[2024.05.20-11.18.40:808][ 87]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.05.20-11.18.46:179][729]LogContentBrowser: Attempting asset rename: NewFolder -> Chloe_Folder
+[2024.05.20-11.18.46:179][729]LogContentBrowser: End creating deferred item NewFolder
