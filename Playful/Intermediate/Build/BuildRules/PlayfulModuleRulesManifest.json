@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\21512001\\Documents\\GitHub\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"C:\\Users\\21512001\\Documents\\GitHub\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Users\\21512001\\Documents\\GitHub\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"C:\\Users\\21512001\\Documents\\GitHub\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

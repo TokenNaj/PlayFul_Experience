@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodaudiolink\\private\\fmodaudiolinklog.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodaudiolink\\public\\fmodaudiolinklog.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
