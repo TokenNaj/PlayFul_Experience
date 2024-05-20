@@ -5,29 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Naj.umap",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Health_Bar.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Trash.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/User_widget.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Player_Interface.uasset",
-<<<<<<< Updated upstream
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/PrivateIntegrationData/BankLookup.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/Banks/Master.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/Buses/Reverb.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/PrivateIntegrationData/AssetLookup.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/Events/enviroment/enviroment.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/Events/enviroment/enviroment.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/Buses/Reverb.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/Banks/Master.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/PrivateIntegrationData/AssetLookup.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/PrivateIntegrationData/BankLookup.uasset"
-=======
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Vefects/Water/VFX/Underwater/Blueprints/BP_Underwater.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Pause_Menu.uasset",
-				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Shop.uasset"
->>>>>>> Stashed changes
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Model/Boat_Stage_1.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Roughness.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/Boat_Stage_1.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Base_color.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Height.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Metallic.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Penny_Folder/Assets/Texture/Boat_Stage_1/lambert1_Normal_OpenGL.uasset"
 			]
 		}
 	]
