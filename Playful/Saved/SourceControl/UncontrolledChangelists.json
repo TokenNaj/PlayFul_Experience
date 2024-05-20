@@ -12,6 +12,7 @@
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Trash.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/User_widget.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Player_Interface.uasset",
+<<<<<<< Updated upstream
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/PrivateIntegrationData/BankLookup.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/Banks/Master.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD/Buses/Reverb.uasset",
@@ -22,6 +23,11 @@
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/Banks/Master.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/PrivateIntegrationData/AssetLookup.uasset",
 				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Sam_Folder/FMOD/PrivateIntegrationData/BankLookup.uasset"
+=======
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Vefects/Water/VFX/Underwater/Blueprints/BP_Underwater.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Pause_Menu.uasset",
+				"C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Blueprints/Shop.uasset"
+>>>>>>> Stashed changes
 			]
 		}
 	]
