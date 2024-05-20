@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{a02efbdc-2700-462e-bd1c-c7b6a9d252b9}">
+		<property name="builtBanksOutputDirectory">
+			<value>C:/Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{3f1b89b5-d704-47c3-a643-4bb07a288362}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{0c7d6760-3da9-4836-871c-c4de71804d4b}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{fbd52f2e-cf07-4a50-a6da-ab55de2020e4}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{cbbcced2-639a-4e7d-a91f-9ba46238ac5e}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{84532048-ff2a-4c79-a6ca-6ff464164878}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{516a4fc2-7acb-4365-841d-e4d35e76bb56}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{81aea186-eb3c-43f2-bf6b-5eeef0c2217a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{d453a6f3-7b59-4f7b-a21f-ac22a743c7f3}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{e953fb60-ae82-45e6-bfb9-c1f8316f02eb}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{b38aa1d7-23c0-4c98-949c-ffb81d361382}</destination>
+		</relationship>
+	</object>
+</objects>

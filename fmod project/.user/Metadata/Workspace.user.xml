@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{a02efbdc-2700-462e-bd1c-c7b6a9d252b9}">
+		<relationship name="projectSettings">
+			<destination>{5f33cecd-28cf-4863-a015-0523fa1b833f}</destination>
+		</relationship>
+	</object>
+	<object class="ProjectSettings" id="{5f33cecd-28cf-4863-a015-0523fa1b833f}">
+		<relationship name="activePlatform">
+			<destination>{b38aa1d7-23c0-4c98-949c-ffb81d361382}</destination>
+		</relationship>
+	</object>
+</objects>
