@@ -1,11 +1,19 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\fmodstudioprivatepch.h",
+=======
+        "Source": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\fmodstudioprivatepch.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

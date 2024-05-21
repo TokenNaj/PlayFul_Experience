@@ -1,11 +1,19 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametertrack.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
         "Includes": [
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametertrack.h",
+=======
+        "Source": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametertrack.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametertrack.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescenetracks\\public\\sections\\moviesceneparametersection.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\curves\\keyhandle.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\keyhandle.generated.h",
@@ -180,8 +188,13 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\moviescene\\uht\\moviescenenameabletrack.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescene\\public\\compilation\\imoviescenetracktemplateproducer.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\moviescene\\uht\\imoviescenetracktemplateproducer.generated.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodeventparametertrack.generated.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametersectiontemplate.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodeventparametertrack.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventparametersectiontemplate.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescenetracks\\public\\evaluation\\moviesceneparametertemplate.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviesceneevaltemplate.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviesceneevaltemplatebase.h",
@@ -239,7 +252,11 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescene\\public\\compilation\\moviescenetemplateinterrogation.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\moviescene\\uht\\moviesceneevaltemplate.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\moviescenetracks\\uht\\moviesceneparametertemplate.generated.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodeventparametersectiontemplate.generated.h"
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodeventparametersectiontemplate.generated.h"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

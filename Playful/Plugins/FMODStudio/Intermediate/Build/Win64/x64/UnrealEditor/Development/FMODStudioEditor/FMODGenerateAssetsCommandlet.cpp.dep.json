@@ -1,6 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodgenerateassetscommandlet.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudioeditor\\pch.fmodstudioeditor.h.pch",
@@ -16,6 +17,23 @@
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+=======
+        "Source": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodgenerateassetscommandlet.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudioeditor\\pch.fmodstudioeditor.h.pch",
+        "Includes": [
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\classes\\fmodgenerateassetscommandlet.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\commandlets\\commandlet.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\commandlet.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudioeditor\\uht\\fmodgenerateassetscommandlet.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
@@ -257,7 +275,11 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\textproperty.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\filehelpers.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\classes\\fmodassetbuilder.h"
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\classes\\fmodassetbuilder.h"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

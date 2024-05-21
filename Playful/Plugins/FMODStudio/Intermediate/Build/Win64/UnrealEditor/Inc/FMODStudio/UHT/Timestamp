@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
@@ -18,3 +19,28 @@ D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProj
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
 D:\jk\workspace\Build__2.2__Unreal_Win\integrations\UE4\temp\FMODStudio\HostProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
+=======
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBus.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODPort.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkSettings.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Public\FMODAudioLinkComponent.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private\FMODAudioLinkSettingsFactory.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
+>>>>>>> Stashed changes

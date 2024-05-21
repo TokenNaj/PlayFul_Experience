@@ -1,9 +1,16 @@
 {
 	"SourceFiles": [
+<<<<<<< Updated upstream
 		"E:\\UE5\\Shooting_Practicing\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
 		"E:\\UE5\\Shooting_Practicing\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
 		"E:\\UE5\\Shooting_Practicing\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
 		"E:\\UE5\\Shooting_Practicing\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs"
+=======
+		"D:\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"D:\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"D:\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"D:\\PlayFul_Experience\\Playful\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs"
+>>>>>>> Stashed changes
 	],
 	"EngineVersion": "5.2.1"
 }

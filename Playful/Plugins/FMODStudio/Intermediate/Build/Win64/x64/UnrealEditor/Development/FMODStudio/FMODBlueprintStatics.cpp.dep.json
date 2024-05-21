@@ -1,12 +1,21 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\fmodblueprintstatics.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
         "Includes": [
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodblueprintstatics.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodaudiocomponent.h",
+=======
+        "Source": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\fmodblueprintstatics.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodblueprintstatics.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodaudiocomponent.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\sound\\soundattenuation.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\attenuation.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\curves\\curvefloat.h",
@@ -319,6 +328,7 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\audio\\audiodebug.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\volumefader.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\strongobjectptr.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodstudiomodule.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodutils.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.hpp",
@@ -346,6 +356,35 @@
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodvca.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodvca.generated.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_errors.h"
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodstudiomodule.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodutils.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.hpp",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio_common.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.hpp",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodaudiocomponent.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodblueprintstatics.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodbank.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodasset.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodasset.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodbank.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodevent.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodevent.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodbus.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodbus.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodvca.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodvca.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_errors.h"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

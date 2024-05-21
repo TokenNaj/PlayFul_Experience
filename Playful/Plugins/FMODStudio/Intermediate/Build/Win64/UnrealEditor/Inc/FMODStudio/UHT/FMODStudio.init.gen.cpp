@@ -27,13 +27,22 @@ void EmptyLinkFunctionForGeneratedCodeFMODStudio_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< Updated upstream
 				0xEEC85B83,
 				0x8FEFC51E,
+=======
+				0x78034745,
+				0x1B8AD7D2,
+>>>>>>> Stashed changes
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_FMODStudio.OuterSingleton;
 	}
+<<<<<<< Updated upstream
 	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudio(Z_Construct_UPackage__Script_FMODStudio, TEXT("/Script/FMODStudio"), Z_Registration_Info_UPackage__Script_FMODStudio, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEEC85B83, 0x8FEFC51E));
+=======
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_FMODStudio(Z_Construct_UPackage__Script_FMODStudio, TEXT("/Script/FMODStudio"), Z_Registration_Info_UPackage__Script_FMODStudio, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x78034745, 0x1B8AD7D2));
+>>>>>>> Stashed changes
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

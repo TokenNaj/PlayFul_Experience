@@ -14,6 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FMODSTUDIO_FMODSettings_generated_h
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_110_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCustomPoolSizes_Statics; \
 	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
@@ -22,24 +23,39 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> FMODSTUDIO_API UScriptStruct* StaticStruct<struct FCustomPoolSizes>();
 
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_138_GENERATED_BODY \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_110_GENERATED_BODY \
+>>>>>>> Stashed changes
 	friend struct Z_Construct_UScriptStruct_FFMODPlatformSettings_Statics; \
 	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> FMODSTUDIO_API UScriptStruct* StaticStruct<struct FFMODPlatformSettings>();
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_180_GENERATED_BODY \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_153_GENERATED_BODY \
+>>>>>>> Stashed changes
 	friend struct Z_Construct_UScriptStruct_FFMODProjectLocale_Statics; \
 	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> FMODSTUDIO_API UScriptStruct* StaticStruct<struct FFMODProjectLocale>();
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_SPARSE_DATA
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_RPC_WRAPPERS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_ACCESSORS
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_SPARSE_DATA
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_RPC_WRAPPERS
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_ACCESSORS
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUFMODSettings(); \
 	friend struct Z_Construct_UClass_UFMODSettings_Statics; \
@@ -50,7 +66,11 @@ public: \
 
 
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_INCLASS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_INCLASS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUFMODSettings(); \
 	friend struct Z_Construct_UClass_UFMODSettings_Statics; \
@@ -61,7 +81,11 @@ public: \
 
 
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_STANDARD_CONSTRUCTORS \
+>>>>>>> Stashed changes
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODSettings) \
@@ -75,7 +99,11 @@ public: \
 	NO_API virtual ~UFMODSettings();
 
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -89,6 +117,7 @@ public: \
 	NO_API virtual ~UFMODSettings();
 
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_201_PROLOG
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -98,10 +127,22 @@ public: \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_INCLASS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_STANDARD_CONSTRUCTORS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_175_PROLOG
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_SPARSE_DATA \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_RPC_WRAPPERS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_ACCESSORS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_INCLASS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_STANDARD_CONSTRUCTORS \
+>>>>>>> Stashed changes
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< Updated upstream
 #define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
@@ -110,6 +151,16 @@ public: \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_ACCESSORS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_INCLASS_NO_PURE_DECLS \
 	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_204_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_SPARSE_DATA \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_ACCESSORS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_INCLASS_NO_PURE_DECLS \
+	FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h_178_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class FMODSettings."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -117,7 +168,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FMODSTUDIO_API UClass* StaticClass<class UFMODSettings>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h
+#define CURRENT_FILE_ID FID_Playful_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSettings_h
 
 
 #define FOREACH_ENUM_EFMODLOGGING(op) \

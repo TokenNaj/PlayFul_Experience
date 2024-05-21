@@ -1,6 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodstudioeditormodule.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudioeditor\\pch.fmodstudioeditor.h.pch",
@@ -11,6 +12,18 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodstudiomodule.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodstudiostyle.h",
+=======
+        "Source": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodstudioeditormodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudioeditor\\pch.fmodstudioeditor.h.pch",
+        "Includes": [
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\public\\fmodstudioeditormodule.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\modules\\modulemanager.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\modules\\boilerplate\\moduleboilerplate.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodstudiomodule.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodstudiostyle.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyle.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slatecore\\public\\styling\\styledefaults.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\paths.h",
@@ -24,7 +37,11 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slatecore\\public\\brushes\\slatedynamicimagebrush.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\editorstyle\\public\\editorstyleset.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slatecore\\public\\styling\\appstyle.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodaudiocomponent.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodaudiocomponent.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\launch\\resources\\version.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\sound\\soundattenuation.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\attenuation.h",
@@ -269,6 +286,7 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\activesound.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\audio\\audiodebug.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\volumefader.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodutils.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.hpp",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio_common.h",
@@ -290,6 +308,29 @@
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodeventeditor.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmodutils.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.hpp",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio_common.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_studio.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod.hpp",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodaudiocomponent.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodassetbroker.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\unrealed\\public\\componentassetbroker.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodevent.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodasset.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodasset.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodevent.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodeventeditor.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\unrealed\\public\\toolkits\\asseteditortoolkit.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slate\\public\\framework\\docking\\tabmanager.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slate\\public\\slatefwd.h",
@@ -421,13 +462,21 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\namepermissionlist.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\developer\\assettools\\public\\assettypeactivationopenedmethod.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\asseteditorsubsystem.generated.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodaudiocomponentvisualizer.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodaudiocomponentvisualizer.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\unrealed\\public\\componentvisualizer.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\convexvolume.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\hitproxies.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hitproxies.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\componentvisualizer.generated.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodaudiocomponentdetails.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodaudiocomponentdetails.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\propertyeditor\\public\\propertycustomizationhelpers.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\slate\\public\\framework\\slatedelegates.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\materials\\materialinterface.h",
@@ -491,6 +540,7 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\actorpickermode\\public\\actorpickermode.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\scenedepthpickermode\\public\\scenedepthpickermode.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomization.h",
+<<<<<<< Updated upstream
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\classes\\fmodassetbuilder.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodbankupdatenotifier.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodsettingscustomization.h",
@@ -503,6 +553,20 @@
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\sequencer\\fmodeventcontroltrackeditor.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\sequencer\\fmodeventparametertrackeditor.h",
             "c:\\users\\21512001\\documents\\github\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\assettypeactions_fmodevent.h",
+=======
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\classes\\fmodassetbuilder.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodbankupdatenotifier.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\fmodsettingscustomization.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\sequencer\\fmodchanneleditors.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\sequencercore\\public\\mvvm\\views\\keydrawparams.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudio\\private\\sequencer\\fmodeventcontrolsection.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\moviescene\\public\\channels\\moviescenebytechannel.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\moviescene\\uht\\moviescenebytechannel.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodeventcontrolsection.generated.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\sequencer\\fmodeventcontroltrackeditor.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\sequencer\\fmodeventparametertrackeditor.h",
+            "d:\\playful_experience\\playful\\plugins\\fmodstudio\\source\\fmodstudioeditor\\private\\assettypeactions_fmodevent.h",
+>>>>>>> Stashed changes
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\developer\\assettools\\public\\assettypeactions_base.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\editor\\unrealed\\classes\\settings\\editorloadingsavingsettings.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\editorloadingsavingsettings.generated.h",

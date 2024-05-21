@@ -1,9 +1,18 @@
+<<<<<<< Updated upstream
 C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAmbientSoundActorFactory.cpp
 /I .
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Classes
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Private
+=======
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAmbientSoundActorFactory.cpp
+/I .
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Classes
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Private
+>>>>>>> Stashed changes
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry\UHT
 /I Runtime\AssetRegistry\Public
 /I Runtime
@@ -292,6 +301,7 @@ C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\EditorWidgets\UHT
 /I Editor\EditorWidgets\Public
 /I Editor\WorkspaceMenuStructure\Public
+<<<<<<< Updated upstream
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudioEditor\UHT
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Public
@@ -300,6 +310,16 @@ C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Public
+=======
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudioEditor\UHT
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudioEditor\Public
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudio\UHT
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Public
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Public
+>>>>>>> Stashed changes
 /I Runtime\Media\Public
 /I Runtime\ColorManagement\Public
 /external:W0
@@ -311,11 +331,19 @@ C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< Updated upstream
 /FI"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
 /Yu"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
 /Fp"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h.pch"
 /Fo"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.cpp.obj"
 /sourceDependencies C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.cpp.dep.json
+=======
+/FI"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
+/Yu"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
+/Fp"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h.pch"
+/Fo"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.cpp.obj"
+/sourceDependencies D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.cpp.dep.json
+>>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

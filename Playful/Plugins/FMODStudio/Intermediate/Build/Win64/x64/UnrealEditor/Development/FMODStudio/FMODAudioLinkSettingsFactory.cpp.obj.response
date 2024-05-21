@@ -1,9 +1,18 @@
+<<<<<<< Updated upstream
 C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private\FMODAudioLinkSettingsFactory.cpp
 /I .
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Private
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private
+=======
+D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private\FMODAudioLinkSettingsFactory.cpp
+/I .
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Classes
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Private
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Private
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Private
+>>>>>>> Stashed changes
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene\UHT
 /I Runtime\MovieScene\Public
 /I Runtime
@@ -276,12 +285,21 @@ C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+<<<<<<< Updated upstream
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudio\UHT
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Public
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public
 /I C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Public
+=======
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudio\UHT
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLink\Public
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODStudio\Public
+/I D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Source\FMODAudioLinkEditor\Public
+>>>>>>> Stashed changes
 /I Runtime\Media\Public
 /I Runtime\ColorManagement\Public
 /external:W0
@@ -293,11 +311,19 @@ C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< Updated upstream
 /FI"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
 /Yu"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
 /Fp"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h.pch"
 /Fo"C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettingsFactory.cpp.obj"
 /sourceDependencies C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettingsFactory.cpp.dep.json
+=======
+/FI"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
+/Yu"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
+/Fp"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h.pch"
+/Fo"D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettingsFactory.cpp.obj"
+/sourceDependencies D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettingsFactory.cpp.dep.json
+>>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

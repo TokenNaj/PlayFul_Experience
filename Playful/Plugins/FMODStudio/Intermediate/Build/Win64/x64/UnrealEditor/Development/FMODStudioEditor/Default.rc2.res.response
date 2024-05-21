@@ -72,5 +72,9 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=Playful
+<<<<<<< Updated upstream
 /fo "C:\Users\21512001\Documents\GitHub\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\Default.rc2.res"
+=======
+/fo "D:\PlayFul_Experience\Playful\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\Default.rc2.res"
+>>>>>>> Stashed changes
 "..\Build\Windows\Resources\Default.rc2"
