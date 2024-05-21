@@ -15066,3 +15066,248 @@ Ultra_Dynamic_Sky
 [2024.05.21-13.03.01:673][622]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Naj_Folder/Widget/Player_Hud/Point_System_Widget.Point_System_Widget
 [2024.05.21-13.03.01:673][622]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying.Shop_Widget_Buying
 [2024.05.21-13.03.01:674][622]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Naj_Folder/Level/CharacterSelected.CharacterSelected
+[2024.05.21-13.04.25:554][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-13.04.25:584][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Naj_Folder/Level/Item_Slot" FILE="../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset" SILENT=true
+[2024.05.21-13.04.25:585][641]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Slot
+[2024.05.21-13.04.25:586][641]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_SlotC053595546E86EFE3DB95AA1770E4E56.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset'
+[2024.05.21-13.04.25:592][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.85 sec)
+[2024.05.21-13.04.25:604][641]AssetCheck: New page: Asset Save: Item_Slot
+[2024.05.21-13.04.25:604][641]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Naj_Folder/Level/Item_Slot.Item_Slot
+[2024.05.21-13.05.02:638][976]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-13.05.02:638][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.05.34:141][418]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget
+[2024.05.21-13.05.34:142][418]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.05.34:142][418]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.05.34:147][418]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.05.34:147][418]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.06.59:855][235]BlueprintLog: New page: Compile Item_Slot_widget
+[2024.05.21-13.06.59:930][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.05.21-13.07.02:999][589]BlueprintLog: New page: Compile Item_Slot_widget
+[2024.05.21-13.07.03:063][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.05.21-13.10.38:615][822]LogClass: Warning: Type mismatch in Thumbnail_10_FB1C11F34092958C28FA65A2B08CDEA6 of Item_Slot - Previous (ArrayProperty) Current(ObjectProperty) for package:  FObjectReader
+[2024.05.21-13.10.38:615][822]LogClass: Warning: Type mismatch in Thumbnail_10_FB1C11F34092958C28FA65A2B08CDEA6 of Item_Slot - Previous (ArrayProperty) Current(ObjectProperty) for package:  FObjectReader
+[2024.05.21-13.10.38:615][822]LogClass: Warning: Type mismatch in Thumbnail_10_FB1C11F34092958C28FA65A2B08CDEA6 of Item_Slot - Previous (ArrayProperty) Current(ObjectProperty) for package:  FObjectReader
+[2024.05.21-13.12.09:264][196]LogDerivedDataCache: C:/Users/21512001/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.066 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4762 files in 6414 folders with total size 625 MiB.
+[2024.05.21-13.12.38:264][486]BlueprintLog: New page: Compile Item_Slot_widget
+[2024.05.21-13.12.38:336][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.21-13.12.40:731][761]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-13.12.40:731][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.12.40:739][761]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-13.12.40:739][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-13.12.50:557][817]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget
+[2024.05.21-13.12.50:558][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.12.50:558][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.12.50:563][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.12.50:563][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.14.00:080][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.05.21-13.14.00:086][747]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Naj_Folder/Naj' took 0.034
+[2024.05.21-13.14.00:086][747]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget] ([2] browsable assets)...
+[2024.05.21-13.14.00:089][747]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget]
+[2024.05.21-13.14.00:089][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget]
+[2024.05.21-13.14.00:094][747]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget_Auto4
+[2024.05.21-13.14.00:094][747]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_widget_Auto4CABF451D429DFD9DDCFE6A809D2399BA.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget_Auto4.uasset'
+[2024.05.21-13.14.00:095][747]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Naj_Folder/Level/Item_Slot] ([1] browsable assets)...
+[2024.05.21-13.14.00:095][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Level/Item_Slot]
+[2024.05.21-13.14.00:096][747]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Level/Item_Slot_Auto4
+[2024.05.21-13.14.00:096][747]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_Auto4CA3BB91D41BC6EA1E84BD6859039F1B2.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Level/Item_Slot_Auto4.uasset'
+[2024.05.21-13.14.00:096][747]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Naj_Folder/Level/Item_Data_Table] ([1] browsable assets)...
+[2024.05.21-13.14.00:096][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Level/Item_Data_Table]
+[2024.05.21-13.14.00:097][747]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Level/Item_Data_Table_Auto4
+[2024.05.21-13.14.00:097][747]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Data_Table_Auto4EE0EA5D24C3883345114FEB1C75E9FED.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Level/Item_Data_Table_Auto4.uasset'
+[2024.05.21-13.14.00:098][747]LogFileHelpers: Auto-saving content packages took 0.012
+[2024.05.21-13.16.44:640][430]LogEditorTransaction: Undo Change Text Pin Value
+[2024.05.21-13.16.59:172][116]LogEditorTransaction: Undo Change Text Pin Value
+[2024.05.21-13.17.28:176][798]BlueprintLog: New page: Compile Item_Slot_widget
+[2024.05.21-13.17.28:248][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.05.21-13.17.30:266][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:267][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:267][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:267][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:268][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:268][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:268][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:268][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:269][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:269][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:269][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.30:271][ 18]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-13.17.32:166][202]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying.Shop_Widget_Buying
+[2024.05.21-13.17.32:166][202]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.17.32:166][202]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.17.32:172][202]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-13.17.32:172][202]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-13.17.59:008][317]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Naj_Folder/Level/Item_Data_Table.Item_Data_Table
+[2024.05.21-13.18.29:933][959]BlueprintLog: New page: Compile Shop_Widget_Buying
+[2024.05.21-13.18.29:991][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.05.21-13.19.12:994][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-13.19.13:030][881]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Data_Table
+[2024.05.21-13.19.13:030][881]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Data_Table808D3C084A8408BB8679018646083383.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Data_Table.uasset'
+[2024.05.21-13.19.13:036][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.89 sec)
+[2024.05.21-13.19.13:054][881]AssetCheck: New page: Asset Save: Item_Data_Table
+[2024.05.21-13.19.13:055][881]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Naj_Folder/Level/Item_Data_Table.Item_Data_Table
+[2024.05.21-13.24.00:248][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.05.21-13.24.00:253][654]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Naj_Folder/Naj' took 0.035
+[2024.05.21-13.24.00:253][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying] ([2] browsable assets)...
+[2024.05.21-13.24.00:259][654]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying.Shop_Widget_Buying]
+[2024.05.21-13.24.00:259][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying]
+[2024.05.21-13.24.00:265][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying_Auto5
+[2024.05.21-13.24.00:265][654]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Shop_Widget_Buying_Auto5F0664ECB4F6D68FD62A455BE7C79D08A.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying_Auto5.uasset'
+[2024.05.21-13.24.00:266][654]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget] ([2] browsable assets)...
+[2024.05.21-13.24.00:270][654]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget]
+[2024.05.21-13.24.00:270][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget]
+[2024.05.21-13.24.00:274][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget_Auto5
+[2024.05.21-13.24.00:274][654]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_widget_Auto500204A2B4464B24AC9D26999859E1C59.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget_Auto5.uasset'
+[2024.05.21-13.24.00:276][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Naj_Folder/Level/Item_Slot] ([1] browsable assets)...
+[2024.05.21-13.24.00:276][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Naj_Folder/Level/Item_Slot]
+[2024.05.21-13.24.00:277][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Naj_Folder/Level/Item_Slot_Auto5
+[2024.05.21-13.24.00:277][654]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_Auto5945F9E624BA30F2D3FAF709F5F3896B4.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Autosaves/Game/Naj_Folder/Level/Item_Slot_Auto5.uasset'
+[2024.05.21-13.24.00:278][654]LogFileHelpers: Auto-saving content packages took 0.025
+[2024.05.21-14.02.15:400][538]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Steam Streaming Microphone), InstanceID=1
+[2024.05.21-14.02.15:691][538]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=5036
+[2024.05.21-14.02.16:027][539]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{943f4217-2061-472b-bb21-390677721bbb}, Name=Speakers (Steam Streaming Microphone)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=10.19
+[2024.05.21-14.02.16:027][539]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-14.02.16:028][539]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.05.21-14.02.16:106][540]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (G432 Gaming Headset), InstanceID=1
+[2024.05.21-14.02.16:358][540]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=5036
+[2024.05.21-14.02.16:693][541]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7acb57e7-7405-4b5c-b5a1-f749c481eb1a}, Name=Speakers (G432 Gaming Headset)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=10.16
+[2024.05.21-14.02.16:693][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-14.02.16:694][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.05.21-14.02.49:107][336]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Naj_Folder/Level/Item_Slot.Item_Slot
+[2024.05.21-14.04.38:112][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-14.04.38:134][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Naj_Folder/Level/Item_Slot" FILE="../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset" SILENT=true
+[2024.05.21-14.04.38:136][306]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Slot
+[2024.05.21-14.04.38:136][306]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot36BA3AD6404CE5D53924B1BAB984A061.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset'
+[2024.05.21-14.04.38:142][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 1.92 sec)
+[2024.05.21-14.04.38:151][306]AssetCheck: New page: Asset Save: Item_Slot
+[2024.05.21-14.04.38:151][306]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Naj_Folder/Level/Item_Slot.Item_Slot
+[2024.05.21-14.05.58:914][681]Cmd: TRANSACTION UNDO
+[2024.05.21-14.05.58:914][681]LogEditorTransaction: Undo Reset Data Table Row to Default Values
+[2024.05.21-14.06.11:819][963]LogSlate: Window 'Message' being destroyed
+[2024.05.21-14.06.11:824][963]Message dialog closed, result: Ok, title: Message, text: 'Speed Boat' is not a valid row name
+[2024.05.21-14.06.18:358][533]LogSlate: Window 'Message' being destroyed
+[2024.05.21-14.06.18:366][533]Message dialog closed, result: Ok, title: Message, text: 'Rank 1' is not a valid row name
+[2024.05.21-14.07.55:512][ 74]BlueprintLog: New page: Compile Item_Slot_widget
+[2024.05.21-14.07.55:602][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.05.21-14.07.59:071][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:072][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:072][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:073][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:073][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:073][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:073][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:074][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:074][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:074][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:074][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.07.59:076][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:265][586]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.21-14.08.00:307][586]LogFMOD: Display: Loaded bank lookup
+[2024.05.21-14.08.00:307][586]LogFMOD: Display: Loaded asset lookup
+[2024.05.21-14.08.00:313][586]LogFMOD: Default sample rate = 48000
+[2024.05.21-14.08.00:313][586]LogFMOD: System sample rate = 48000
+[2024.05.21-14.08.00:313][586]LogFMOD: Matching system sample rate 48000
+[2024.05.21-14.08.00:368][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-14.08.00:368][586]PIE: New page: PIE session: Naj (21 May 2024, 16:08:00)
+[2024.05.21-14.08.00:417][586]LogPlayLevel: Creating play world package: /Game/Naj_Folder/UEDPIE_0_Naj
+[2024.05.21-14.08.00:431][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014132s)
+[2024.05.21-14.08.00:431][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Naj_Folder/Naj.Naj to /Game/Naj_Folder/UEDPIE_0_Naj.Naj (0.014248s)
+[2024.05.21-14.08.00:431][586]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-14.08.00:431][586]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-14.08.00:432][586]LogAIModule: Creating AISystem for world Naj
+[2024.05.21-14.08.00:432][586]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2024.05.21-14.08.00:458][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.21-14.08.00:461][586]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.05.21-14.08.00:461][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-14.08.00:461][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-14.08.00:462][586]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-14.08.00:462][586]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-14.08.00:462][586]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-14.08.00:463][586]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-14.08.00:480][586]LogAudioMixer: Display: Using Audio Hardware Device Speakers (G432 Gaming Headset)
+[2024.05.21-14.08.00:480][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-14.08.00:480][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-14.08.00:480][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-14.08.00:481][586]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.05.21-14.08.00:481][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.05.21-14.08.00:483][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.05.21-14.08.00:483][586]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.05.21-14.08.00:483][586]LogInit: FAudioDevice initialized with ID 65.
+[2024.05.21-14.08.00:483][586]LogAudio: Display: Audio Device (ID: 65) registered with world 'Naj'.
+[2024.05.21-14.08.00:483][586]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.05.21-14.08.00:486][586]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.05.21-14.08.00:487][586]LogWorld: Bringing World /Game/Naj_Folder/UEDPIE_0_Naj.Naj up for play (max tick rate 0) at 2024.05.21-15.08.00
+[2024.05.21-14.08.00:489][586]LogWorld: Bringing up level for play took: 0.003832
+[2024.05.21-14.08.00:491][586]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2024.05.21-14.08.00:502][586]PIE: Server logged in
+[2024.05.21-14.08.00:503][586]PIE: Play in editor total start time 0.231 seconds.
+[2024.05.21-14.08.00:523][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:524][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:524][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:524][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:524][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:525][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:525][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:525][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:526][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:526][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:527][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:527][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.00:529][586]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.03:939][968]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.05.21-14.08.03:939][968]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.05.21-14.08.09:138][591]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2024.05.21-14.08.09:138][591]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.05.21-14.08.10:399][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-14.08.10:399][720]LogWorld: BeginTearingDown for /Game/Naj_Folder/UEDPIE_0_Naj
+[2024.05.21-14.08.10:399][720]LogWorld: UWorld::CleanupWorld for Naj, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-14.08.10:400][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-14.08.10:403][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-14.08.10:410][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-14.08.10:437][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-14.08.10:438][720]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.05.21-14.08.10:438][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.05.21-14.08.10:440][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.05.21-14.08.10:446][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind X+) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Rain Y-) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Rain Y+) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Rain X-) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Rain X+) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind Y-) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind Y+) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind X-) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind Whistling) Not currently registered. Aborting.
+[2024.05.21-14.08.10:454][720]LogActorComponent: ReregisterComponent: (/Game/Naj_Folder/Naj.Naj:PersistentLevel.Ultra_Dynamic_Weather_C_1.Distant Thunder) Not currently registered. Aborting.
+[2024.05.21-14.08.10:478][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:478][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:478][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:479][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:479][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:479][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:479][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:480][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:480][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:480][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:481][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:483][720]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.21-14.08.10:512][721]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2024.05.21-14.08.39:319][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.05.21-14.08.40:546][ 91]LogSlate: Window 'Save Content' being destroyed
+[2024.05.21-14.08.40:556][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.21-14.08.40:591][ 91]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Data_Table
+[2024.05.21-14.08.40:592][ 91]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Data_Table8F51D0A24992D78A117336A2D341BAD3.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Data_Table.uasset'
+[2024.05.21-14.08.40:602][ 91]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget
+[2024.05.21-14.08.40:602][ 91]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_widgetB8F60A574053F6DDDF7ECCB81393173D.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.uasset'
+[2024.05.21-14.08.40:616][ 91]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying
+[2024.05.21-14.08.40:617][ 91]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Shop_Widget_BuyingE1E53F1046863DAC9F65BEBA93EBB806.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying.uasset'
+[2024.05.21-14.08.40:626][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.99 sec)
+[2024.05.21-14.08.40:633][ 91]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.21-14.08.40:633][ 91]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget
+[2024.05.21-14.08.40:634][ 91]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Naj_Folder/Level/Item_Data_Table.Item_Data_Table
+[2024.05.21-14.08.40:634][ 91]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Shop_Widget_Buying.Shop_Widget_Buying
