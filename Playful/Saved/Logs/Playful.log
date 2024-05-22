@@ -31065,3 +31065,28 @@ Make sure 'BP_ThirdPersonCharacter_C' has been compiled for  Trash Inventory
 [2024.05.22-15.34.36:911][825]LogContentValidation: Display: Validating /Script/Engine.World /Game/Final_Scene/Final_Enviornment.Final_Enviornment
 [2024.05.22-15.34.36:911][825]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Penny_Folder/Assets/Model/sail6.sail6
 [2024.05.22-15.34.36:911][825]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Penny_Folder/Assets/Model/sped_2.sped_2
+[2024.05.22-15.35.23:881][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.05.22-15.35.24:628][332]LogSlate: Window 'Save Content' being destroyed
+[2024.05.22-15.35.24:640][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.22-15.35.24:670][332]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Data_Table
+[2024.05.22-15.35.24:670][332]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Data_Table0BB8BAAE461F3D8D38128FA227965C97.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Data_Table.uasset'
+[2024.05.22-15.35.24:671][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Naj_Folder/Level/Item_Slot" FILE="../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset" SILENT=true
+[2024.05.22-15.35.24:672][332]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Level/Item_Slot
+[2024.05.22-15.35.24:673][332]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot26B22BC04185541A78EF179280D8B475.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Level/Item_Slot.uasset'
+[2024.05.22-15.35.24:681][332]LogSavePackage: Moving output files for package: /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget
+[2024.05.22-15.35.24:681][332]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/Item_Slot_widgetE8C87532436499D9A3548E80BDA05E2A.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.uasset'
+[2024.05.22-15.35.24:688][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 454 ms)
+[2024.05.22-15.35.24:693][332]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.22-15.35.24:693][332]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Naj_Folder/Widget/Shop_Widget/Item_Slot_widget.Item_Slot_widget
+[2024.05.22-15.35.24:693][332]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Naj_Folder/Level/Item_Data_Table.Item_Data_Table
+[2024.05.22-15.35.24:693][332]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Naj_Folder/Level/Item_Slot.Item_Slot
+[2024.05.22-15.35.42:472][450]LogViewport: Scene viewport resized to 2288x1489, mode Windowed.
+[2024.05.22-15.35.42:501][451]LogViewport: Scene viewport resized to 2288x1475, mode Windowed.
+[2024.05.22-15.35.42:534][452]LogViewport: Scene viewport resized to 2288x1460, mode Windowed.
+[2024.05.22-15.35.42:563][453]LogViewport: Scene viewport resized to 2288x1458, mode Windowed.
+[2024.05.22-15.43.45:319][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.22-15.43.45:415][576]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.05.22-15.43.45:415][576]LogSavePackage: Moving '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Saved/BP_ThirdPersonCharacter13C56AB44C5D2B3DAB406BA725FD96FA.tmp' to '../../../../../../Users/21512001/Documents/GitHub/PlayFul_Experience/Playful/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.05.22-15.43.45:422][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 558 ms)
+[2024.05.22-15.43.45:433][576]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.05.22-15.43.45:433][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
