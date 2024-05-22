@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Penelope/OneDrive/Documents/GitHub/PlayFul_Experience/Playful/Content/Final_Scene/Assets/Models/sail_boat.uasset",
+				"C:/Users/Penelope/OneDrive/Documents/GitHub/PlayFul_Experience/Playful/Content/Final_Scene/Assets/Models/speed_boat.uasset",
+				"C:/Users/Penelope/OneDrive/Documents/GitHub/PlayFul_Experience/Playful/Content/Final_Scene/Final_Enviornment.umap",
 				"E:/UE5/Github/PlayFul_Experience/Playful/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"E:/UE5/Github/PlayFul_Experience/Playful/Content/Naj_Folder/Naj.umap",
 				"E:/UE5/Github/PlayFul_Experience/Playful/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_SailBoat.uasset",
